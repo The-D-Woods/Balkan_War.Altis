@@ -45,7 +45,7 @@ civBoat = "C_Boat_Transport_02_F";
 
 arrayCivVeh = arrayCivVeh + ["CUP_C_Ural_Civ_03","CUP_C_Skoda_Blue_CIV","CUP_C_Skoda_White_CIV","CUP_C_Golf4_red_Civ","CUP_C_Datsun_Plain","CUP_C_Datsun_Covered","CUP_C_Datsun_Tubeframe","C_Van_01_box_F","C_Van_01_transport_F","CUP_C_Ural_Open_Civ_03","CUP_C_Ikarus_Chernarus","CUP_C_Lada_White_CIV","CUP_C_Lada_Red_CIV","CUP_C_SUV_CIV","CUP_C_TT650_RU","CUP_C_S1203_CIV","CUP_C_Lada_GreenTK_CIV","CUP_C_V3S_Open_TKC","CUP_C_SUV_TK","CUP_C_UAZ_Open_TK_CIV","CUP_C_Ural_Civ_02","CUP_C_Ural_Open_Civ_01"];
 
-sniperRifle = "CUP_arifle_SAIGA_MK03_Wood";
+sniperRifle = "CUP_srifle_SVD";
 lampsSDK = ["CUP_acc_LLM01_L","acc_flashlight"];
 
 ATMineMag = "ATMine_Range_Mag";
@@ -95,17 +95,17 @@ nameTeamPlayer = if (worldName == "Tanoa") then {"SDK"} else {"FIA"};
 factionGEN = "BLU_GEN_F";
 
 //Player spawn loadout
-teamPlayerDefaultLoadout = [[],[],[],["CUP_U_O_CHDKZ_Kam_01", []],[],[],"","",[],["ItemMap","","","","",""]];
+teamPlayerDefaultLoadout = [[],[],[],["U_C_Poloshirt_salmon", []],[],[],"","",[],["ItemMap","ItemGPS","","","",""]];
 
 //Arsenal and Initial AI weapon setup
-unlockedWeapons = ["CUP_smg_Mac10","CUP_arifle_SAIGA_MK03_Wood","Binocular","CUP_smg_saiga9","CUP_sgun_CZ584","CUP_srifle_LeeEnfield_rail","CUP_smg_SA61","CUP_hgun_Makarov","CUP_hgun_Mac10","CUP_hgun_TEC9","CUP_hgun_TaurusTracker455"];
-unlockedRifles = ["CUP_smg_Mac10","CUP_arifle_SAIGA_MK03_Wood","CUP_smg_saiga9","CUP_sgun_CZ584","CUP_srifle_LeeEnfield_rail","CUP_smg_SA61"];//standard rifles for AI riflemen, medics engineers etc. are picked from this array. Add only rifles.
-unlockedMagazines = ["CUP_30Rnd_45ACP_MAC10_M","CUP_10Rnd_9x19_Saiga9","CUP_10Rnd_762x39_SaigaMk03_M","CUP_1Rnd_B_CZ584_74Slug","CUP_10x_303_M","CUP_1Rnd_B_CZ584_74Pellets","CUP_1Rnd_762x51_CZ584","CUP_6Rnd_45ACP_M","CUP_32Rnd_9x19_TEC9","CUP_20Rnd_B_765x17_Ball_M","CUP_8Rnd_9x18_Makarov_M"];
-initialRifles = ["CUP_smg_Mac10","CUP_arifle_SAIGA_MK03_Wood","CUP_smg_saiga9","CUP_sgun_CZ584","CUP_srifle_LeeEnfield_rail","CUP_smg_SA61"];
+unlockedWeapons = ["Binocular","CUP_hgun_Makarov","CUP_hgun_Mac10","CUP_hgun_TEC9","CUP_hgun_TaurusTracker455"];
+unlockedRifles = ["CUP_arifle_AKM","CUP_arifle_AKS74U"];//standard rifles for AI riflemen, medics engineers etc. are picked from this array. Add only rifles.
+unlockedMagazines = ["CUP_30Rnd_45ACP_MAC10_M","CUP_6Rnd_45ACP_M","CUP_32Rnd_9x19_TEC9","CUP_20Rnd_B_765x17_Ball_M","CUP_8Rnd_9x18_Makarov_M"];
+initialRifles = ["CUP_arifle_AKM","CUP_arifle_AKS74U"];
 unlockedItems = unlockedItems + ["CUP_acc_LLM01_L","acc_flashlight","ACRE_PRC343"];
 unlockedAT = [];
-banditUniforms = banditUniforms + ["CUP_U_O_SLA_Green","CUP_U_I_GUE_Anorak_03","CUP_U_I_GUE_Anorak_02","U_BG_Guerrilla_6_1","U_BG_Guerilla1_1","U_BG_Guerilla2_2","U_BG_Guerilla2_1","CUP_U_O_TK_MixedCamo","CUP_U_I_GUE_Flecktarn3","CUP_U_I_GUE_WorkU_02","CUP_U_I_GUE_Flecktarn","CUP_U_I_GUE_Flecktarn2","CUP_U_I_GUE_Flecktarn4","CUP_U_I_GUE_Woodland1"];
-unlockedBackpacks = ["B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_ocamo","B_FieldPack_oucamo","B_FieldPack_cbr","B_TacticalPack_oli","B_TacticalPack_rgr"];
+banditUniforms = banditUniforms + ["CUP_U_O_SLA_Green","CUP_U_O_CHDKZ_Kam_03","CUP_U_O_CHDKZ_Kam_01","CUP_U_O_CHDKZ_Kam_04","CUP_U_O_CHDKZ_Kam_02","CUP_U_O_CHDKZ_Kam_05","CUP_U_O_CHDKZ_Kam_06","CUP_U_O_CHDKZ_Kam_07","CUP_U_O_CHDKZ_Kam_08","CUP_U_I_GUE_Anorak_03","CUP_U_I_GUE_Anorak_02","U_BG_Guerrilla_6_1","U_BG_Guerilla1_1","U_BG_Guerilla2_2","U_BG_Guerilla2_1","CUP_U_O_TK_MixedCamo","CUP_U_I_GUE_Flecktarn3","CUP_U_I_GUE_WorkU_02","CUP_U_I_GUE_Flecktarn","CUP_U_I_GUE_Flecktarn2","CUP_U_I_GUE_Flecktarn4","CUP_U_I_GUE_Woodland1"];
+unlockedBackpacks = ["B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_ocamo","B_FieldPack_oucamo","B_FieldPack_cbr","B_TacticalPack_oli","B_AssaultPack_blk","B_AssaultPack_khk","B_AssaultPack_rgr","B_AssaultPack_cbr","B_TacticalPack_rgr"];
 //TAFR Unlocks
 if (hasTFAR) then {unlockedItems = unlockedItems + ["tf_microdagr","tf_anprc154"]};
 if (startLR) then {unlockedBackpacks = unlockedBackpacks + ["tf_anprc155_coyote"]};
