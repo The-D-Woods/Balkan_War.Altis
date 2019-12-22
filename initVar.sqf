@@ -866,7 +866,7 @@ unlockedItems =
 	];
 
 //Temporary starting vests fix while I class items properly
-unlockedItems append ["V_Rangemaster_belt","V_BandollierB_khk","V_BandollierB_cbr","V_BandollierB_rgr","V_BandollierB_blk","V_BandollierB_oli","V_BandollierB_ghex_F","V_HarnessO_brn","V_HarnessO_gry","V_HarnessO_ghex_F","V_HarnessOGL_ghex_F","V_HarnessOGL_gry","V_HarnessOGL_brn","V_Pocketed_olive_F","V_Pocketed_coyote_F","V_Pocketed_black_F"];
+unlockedItems append ["CUP_V_I_Carrier_Belt","CUP_V_O_SLA_Carrier_Belt","CUP_V_O_SLA_Carrier_Belt02","CUP_V_O_Ins_Carrier_Rig_MG","CUP_V_I_RACS_Carrier_Rig_2","CUP_V_I_RACS_Carrier_Rig_wdl_2","CUP_V_B_GER_Carrier_Rig_2_Brown","usm_vest_lbe_rm2","usm_vest_lbe_p","V_Rangemaster_belt","V_BandollierB_khk","V_BandollierB_cbr","V_BandollierB_rgr","V_BandollierB_blk","V_BandollierB_oli","V_BandollierB_ghex_F","V_HarnessO_brn","V_HarnessO_gry","V_HarnessO_ghex_F","V_HarnessOGL_ghex_F","V_HarnessOGL_gry","V_HarnessOGL_brn","V_Pocketed_olive_F","V_Pocketed_coyote_F","V_Pocketed_black_F"];
 
 //IFA Starting Unlocks
 if (hasIFA) then
@@ -1131,7 +1131,7 @@ server setVariable [vehSDKTruck,300,true];											//300
 ////////////////////////////////////
 diag_log format ["%1: [Antistasi] | INFO | initVar | Setting Server Only Variables.",servertime];
 server setVariable ["hr",0,true];														//initial HR value
-server setVariable ["resourcesFIA",1000,true];											//Initial FIA money pool value
+server setVariable ["resourcesFIA",0,true];											//Initial FIA money pool value
 skillFIA = 0;																		//Initial skill level for FIA soldiers
 prestigeNATO = 5;																	//Initial Prestige NATO
 prestigeCSAT = 5;																	//Initial Prestige CSAT
