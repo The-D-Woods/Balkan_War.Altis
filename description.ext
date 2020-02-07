@@ -55,9 +55,69 @@ class CfgSounds
     class fire
     {
         name="fire";
-        sound[]={"Music\fire.ogg",db+12,1.0};
+        sound[]={"music\fire.ogg",db+12,1.0};
         titles[]={};
     };
+	class sound1
+	{
+		name = "sound_1";
+		sound[] = {\music\music1.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound2
+	{
+		name = "sound_2";
+		sound[] = {\music\music2.ogg, db-5, 1.0};
+		titles[] = {};
+	};
+	class sound3
+	{
+		name = "sound_3";
+		sound[] = {\music\music3.ogg, db-5, 1.0};
+		titles[] = {};
+	};
+	class sound4
+	{
+		name = "sound_4";
+		sound[] = {\music\music4.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound5
+	{
+		name = "sound_5";
+		sound[] = {\music\music5.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound6
+	{
+		name = "sound_6";
+		sound[] = {\music\music6.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound7
+	{
+		name = "sound_7";
+		sound[] = {\music\music7.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound8
+	{
+		name = "sound_8";
+		sound[] = {\music\music8.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound9
+	{
+		name = "sound_9";
+		sound[] = {\music\music9.ogg, db-0, 1.0};
+		titles[] = {};
+	};
+	class sound10
+	{
+		name = "sound_10";
+		sound[] = {\music\music10.ogg, db-0, 1.0};
+		titles[] = {};
+	};
 };
 
 class Params
@@ -91,7 +151,7 @@ class Params
         title = "Enable Server Membership";
         texts[] = {"Yes","No"};
         values[] = {1,0};
-        default = o;
+        default = 0;
         //function = "BIS_fnc_paramDaytime"; // (Optional) [[Functions_Library_(Arma_3)|Function]] [[call]]ed when player joins, selected value is passed as an argument
         //isGlobal = 1; // (Optional) 1 to execute script / function locally for every player who joins, 0 to do it only on server
     };
